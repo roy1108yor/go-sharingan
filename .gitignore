@@ -5,6 +5,25 @@
 *.log
 *.log.*
 
+# Clacky configuration
+.1024*
+!.1024
+.breakpoints
+
+# Go specific
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output directories
+bin/
+pkg/
+dist/
+vendor/
+
 # example
 example/example
 example/example.test
